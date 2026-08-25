@@ -84,6 +84,12 @@ Controller (MVC)  →  Service Layer  →  Repository (JPA)  →  MySQL
 - **Repository** — Spring Data JPA for database operations
 - **Security** — Spring Security with role separation (STAFF / ADMIN)
 
+## CI/CD
+Source Code: Git/GitHub
+Build Tool: Maven
+CI Server: Jenkins
+Code Quality: SonarQube
+Artifact Repository: Nexus
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
