@@ -30,9 +30,9 @@ pipeline {
         stage('Upload to Nexus') {
             steps {
                 withCredentials([usernamePassword(
-                    credentialsId: 'nexus-credentials',
-                    usernameVariable: 'NEXUS_USERNAME',
-                    passwordVariable: 'NEXUS_PASSWORD'
+                    credentialsId: '1',
+                    usernameVariable: 'jenkins-banking-application',
+                    passwordVariable: 'harika@123'
                 )]) {
 
                     sh '''
