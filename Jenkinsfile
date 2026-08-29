@@ -31,8 +31,8 @@ pipeline {
             steps {
                 withCredentials([usernamePassword(
                     credentialsId: '1',
-                    usernameVariable: 'jenkins-banking-application',
-                    passwordVariable: 'harika@123'
+                    usernameVariable: 'NEXUS_USERNAME',
+passwordVariable: 'NEXUS_PASSWORD'
                 )]) {
 
                     sh '''
